@@ -20,7 +20,7 @@ Reproduced ResNet-20 from the original deep residual learning paper using PyTorc
 - Used batch normalization, data augmentation, SGD, and learning-rate scheduling
 - Compared reproduced result with the original paper benchmark
 
-Repository: `resnet20-cifar10`
+Repository: [resnet20-cifar10](https://github.com/Saumyadip92/resnet20-cifar10)
 
 ### Markowitz Portfolio Optimization
 
@@ -31,7 +31,7 @@ Reproduced Markowitz Portfolio Selection using real market data and mean-varianc
 - Identified the minimum-variance and maximum-Sharpe portfolios
 - Achieved a Sharpe ratio of 1.142
 
-Repository: `markowitz-portfolio-optimization`
+Repository: [markowitz-portfolio-optimization](https://github.com/Saumyadip92/markowitz-portfolio-optimization)
 
 ## Tech Stack
 
