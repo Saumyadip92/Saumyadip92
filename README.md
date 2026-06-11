@@ -1,45 +1,35 @@
-# Hi, I'm Saumyadip Biswas 👋
+Hi, I'm Saumyadip Biswas 👋
+Full-stack developer building practical, production-style apps with React, Node.js, Express, SQLite, Docker, and AI/data workflows.
 
-I am building projects in machine learning, deep learning, data science, and research paper reproduction.
+Currently looking for entry-level full-stack, frontend, backend, and AI-enabled web app roles.
 
-## About Me
+Projects
+Nearest Boarding Finder
+React + Express + SQLite railway availability proof engine.
 
-- Interested in AI/ML, deep learning, and applied data science
-- Currently building hands-on projects from research papers
-- Focused on writing clean, reproducible, well-documented code
-- Learning by implementing important ML concepts from scratch
+Full-stack app with React, Express, SQLite, Redis cache, Docker Compose, and nginx
+Nearest-first geospatial search across 8,697 stations with detour filtering and provider abstraction
+Server-Sent Events for real-time proof streaming to the browser
+Leaflet map visualization, downloadable proof JSON, responsive dark theme
+19 backend tests (Vitest) + 2 E2E browser tests (Playwright)
+Docker local demo with nginx reverse proxy and SSE buffering disabled
+Resume Auditor
+Evidence-based resume-to-JD matcher using RAG and Gemini API.
 
-## Featured Projects
+Audits resumes against job descriptions by reasoning about evidence, not keyword matching
+In-memory vector retrieval with sentence-transformers (all-MiniLM-L6-v2) and cosine similarity
+Structured-output Gemini calls with retry-with-backoff and model fallback
+Live demo deployed on Streamlit Cloud
+ResNet-20 on CIFAR-10
+Reproduced ResNet-20 from He et al. (2015) using PyTorch — 92.55% test accuracy vs. 91.25% reported.
 
-### ResNet-20 on CIFAR-10
+Tech Stack
+Full-Stack: JavaScript, React, Vite, Tailwind CSS, Node.js, Express, Leaflet
+Backend: SQLite, Redis, Server-Sent Events, REST APIs, Flask
+ML/AI: Python, PyTorch, XGBoost, Scikit-learn, sentence-transformers, Gemini API, RAG
+DevOps & Testing: Docker, Docker Compose, nginx, Vitest, Playwright, Git, Vercel
 
-Reproduced ResNet-20 from the original deep residual learning paper using PyTorch.
-
-- Achieved 92.55% test accuracy on CIFAR-10
-- Implemented residual blocks from scratch
-- Used batch normalization, data augmentation, SGD, and learning-rate scheduling
-- Compared reproduced result with the original paper benchmark
-
-Repository: [resnet20-cifar10](https://github.com/Saumyadip92/resnet20-cifar10)
-
-### Markowitz Portfolio Optimization
-
-Reproduced Markowitz Portfolio Selection using real market data and mean-variance optimization.
-
-- Simulated 10,000 random portfolios
-- Built the efficient frontier
-- Identified the minimum-variance and maximum-Sharpe portfolios
-- Achieved a Sharpe ratio of 1.142
-
-Repository: [markowitz-portfolio-optimization](https://github.com/Saumyadip92/markowitz-portfolio-optimization)
-
-## Tech Stack
-
-Python | PyTorch | NumPy | Pandas | Matplotlib | Jupyter Notebook | Git | GitHub
-
-## Current Focus
-
-- Machine learning fundamentals
-- Deep learning implementation
-- Research paper reproduction
-- Clean project documentation
+Current Focus
+Full-stack web development with real-world problem solving
+AI-enabled web applications (RAG, LLM integration, embeddings)
+Writing clean, tested, documented, production-style code
